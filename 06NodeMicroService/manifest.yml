@@ -1,0 +1,5 @@
+applications:
+- name: nodems
+  buildpacks:
+    - nodejs_buildpack
+  random-route: true

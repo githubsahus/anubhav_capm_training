@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "node micro service",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=9.x"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +22,6 @@
   },
   "homepage": "https://github.com/githubsahus/anubhav_capm_training#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^4.18.2"
   }
 }
